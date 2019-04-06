@@ -1,0 +1,178 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+#cabecalho {
+    position: relative;
+    width: 88%;
+}
+#cabecalho:hover {
+    cursor: pointer;
+}
+.pagina {
+    padding-top: 310px;
+    padding-bottom: 90px;
+}
+.parte1 { 
+    background-image: url("images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1abc9c;
+    color: #ffffff;
+}
+.pagina-1 {
+    padding-top: 76px;
+    padding-bottom: 79px;
+}
+.parte2 { 
+    background-color: white;
+    color: #ffffff;
+}
+#texto{
+    width: 66%;
+    margin: auto;
+    position: relative;
+    color: black;
+}
+#texto2 {
+    width: 47%;
+    margin: auto;
+    position: relative;
+    color: black;
+}
+#label1 {
+    color: #3899e0;
+}
+#linha {
+    width: 18%;
+    border-bottom: 3px solid #3899e0;
+    margin-left: 40%;
+}
+.parte3 { 
+    position: relative;
+    background-color: #eeeeee;
+    color: #555555;
+}
+#car {
+    background-image: url(images/car.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    height: 40%;
+    width: 9%;
+    top: -13%;
+    left: 44%;
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 5%;
+}
+.parte4 { 
+    position: relative;
+    background-color: #eeeeee;
+}
+#root {
+    position:relative;
+}
+.card {
+    width: 190px;
+    height: 300px;
+    opacity: 0.9;
+}
+.card:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+    transform: translate3D(0, -2px, 0);
+    opacity: 1;
+    transition: .3s;
+    border-radius: 2%;
+}
+.card:nth-child(1) {
+    position: absolute;
+    margin-left: 21%;
+    margin-top: -27%;
+    align-content: center;
+    background-color: #800808;
+    color: white;
+ }
+.card:nth-child(2) {
+    position: absolute;
+    margin-left: 42%;
+    margin-top: -27%;
+    align-content: center;
+    height: 300px;
+    background-color: #6c9ea9;
+    color: white;
+ }
+.card:nth-child(3) {
+    position: absolute;
+    margin-left: 63%;
+    margin-top: -27%;
+    align-content: center;
+    background-color: #b99d6b;
+    color: white;
+ }
+ img:nth-child(1) {
+    position: absolute;
+    top: 53%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    left: 35%;
+    width: 29%;
+    opacity: 0.5;
+ }
+ img:nth-child(1):hover {
+    opacity: 1;
+    cursor: pointer;
+ }
+ div.card:nth-child(2) > img:nth-child(1) {
+    top:53%;
+ }
+ div.card:nth-child(2) > h1 {
+    font-size: 33px;
+    margin-top: 1%;
+ }
+
+ @media (min-width: 597px) and (max-width: 900px) {
+    #car {
+        background-image: url(images/car.jpg);
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+        position: absolute;
+        height: 40%;
+        width: 16%;
+        top: -13%;
+        left: 40%;
+    }
+    .card:nth-child(1) {
+        position: absolute;
+        margin-left: 10%;
+        margin-top: -43%;
+        align-content: center;
+        background-color: #800808;
+        color: white;
+    }
+    .card:nth-child(2) {
+        position: absolute;
+        margin-left: 41%;
+        margin-top: -43%;
+        align-content: center;
+        height: 300px;
+        background-color: #6c9ea9;
+        color: white;
+    }
+    .card:nth-child(3) {
+        position: absolute;
+        margin-left: 71%;
+        margin-top: -43%;
+        align-content: center;
+        background-color: #b99d6b;
+        color: white;
+    }
+}
+   
